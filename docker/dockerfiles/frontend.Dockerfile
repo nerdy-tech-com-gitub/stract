@@ -15,7 +15,7 @@ RUN set -e; \
     npm run build;
 
 
-FROM nginx:1.25
+FROM nginx:1.27.5
 
 LABEL maintainer="Zipstack Inc."
 
